@@ -42,7 +42,7 @@ window.dom = {
         if ('innerText' in node) {
             node.innerText = string//兼容低版本ie
         } else {
-            node.textContent = string//firefox\chorme
+            node.textContent = string//兼容高版本ie\firefox\chorme
         }
     },
     html(node, string) {
